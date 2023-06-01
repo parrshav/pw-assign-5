@@ -1,0 +1,27 @@
+Python
+Assignment Questions 
+Assignment 
+Q1. Explain Class and Object with respect to Object-Oriented Programming. Give a suitable example.
+
+In object-oriented programming (OOP), a class is a blueprint or a template that defines the attributes (data) and behaviors (methods) of a particular type of object. It is like a blueprint that describes how an object of that class should be structured and what it can do.
+class Car:
+    def __init__(self, make, model, color, license_plate):
+        self.make = make
+        self.model = model
+        self.color = color
+   Def return_details(self)
+Return self.make,self.model,self.color
+
+ Q2. Name the four pillars of OOPs. 
+Encapsulation:
+Polymorphism
+Abstraction
+Inheritance
+Q3. Explain why the __init__() function is used. Give a suitable example. 
+
+The __init__() function, also known as the constructor, is used in object-oriented programming to initialize the attributes of an object when it is created from a class
+
+Q4. Why self is used in OOPs? 
+In object-oriented programming (OOP), the self parameter is used as a reference to the instance of a class. It is a convention used in many object-oriented languages, including Python, to refer to the current object being operated upon. The use of self allows us to access and modify the attributes and methods of an object within its own scope.
+Q5. What is inheritance? Give an example for each type of inheritance. 
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows objects of one class to acquire the properties and behaviors of another class. It provides a way to create a new class (derived class or subclass) from an existing class
